@@ -12,10 +12,19 @@ import com.example.yaovi.yaovidemo.util.UtilLog;
 
 import java.util.List;
 
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+
 public class MainActivity extends BaseActivity {
 
     private ImageButton bt1;
     private ImageButton bt3;
+    private ImageButton bt2;
+
+    @OnClick(R.id.bt2)
+    public void button2Click(){
+        toActivity(DialogActivity.class);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,10 +32,11 @@ public class MainActivity extends BaseActivity {
         setContentView(R.layout.activity_main);
         initialView();
         initialListener();
+        ButterKnife.bind(this);
     }
 
     private void initialView() {
-
+//        bt2 = (ImageButton) findViewById(R.id.bt2);
         bt1 = (ImageButton) findViewById(R.id.bt1);
         bt3 = (ImageButton) findViewById(R.id.bt3);
     }
@@ -49,6 +59,12 @@ public class MainActivity extends BaseActivity {
 //                startActivity(intent);
             }
         });
+//        bt2.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//
+//            }
+//        });
     }
 
     public void onClick(View v){

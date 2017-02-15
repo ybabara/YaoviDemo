@@ -12,24 +12,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.1.1_26a461e1b1f684d9a2c761bc53cf92703a1d9b12/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f57045fe3a614bd5355a5b8aed31f288710e2a66/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -48,21 +30,102 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_af7b5cd85ec26e0580e9988b696b604709282459/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
         <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_644c7a40e0b410a78c8161c2aa6654db0ab99e30/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1b928e4e556e5c89175596d9523a0de7c08050a9">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7c9893018ff8a9a16f5ef98b35e85ec55f13655a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="54ac615ccfa90975de2f49956d8c4645e73637e8">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_20ad804b0113127607d664a6e0a1653a1261c714/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_345f5f75165aec72c520a6613ccdf50d7be840b6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_efbb176ab0f3631d400c080f1cb647794f9add14/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_c30f16d78bde0432496a51ede5344f96330b5273/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.1.1_26a461e1b1f684d9a2c761bc53cf92703a1d9b12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f57045fe3a614bd5355a5b8aed31f288710e2a66/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yaovi/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.5.1/bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc/butterknife-annotations-8.5.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.5.1_d37b03168459e2c4abcbc241e41531c96d2c7e29/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.5.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton-butterknife-8.5.1_9e1135c8ee8f5d03c09ebd572db27181fd6692b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_af7b5cd85ec26e0580e9988b696b604709282459/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -75,21 +138,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jar="/Users/Yaovi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_30b5a23f6e9b785bae9cd5a487103db60c20d840/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_8552f6344a8f8106ee60c0fe64f4d2d8035e7b70/classes.dex" />
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_d6a4ab16aad0d20e3dfe835f951e65c1a3bc726b/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -99,33 +153,6 @@
         revision="25.0.2"
         sha1="379471b2bd17d9737c050345c08e8c7d16589784">
         <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.1.1_01aceb1f8e6d24c927fb67a06e346b237ee3aca3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Yaovi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_e43a303ab51f29754c9ed195c38bff60c9d0e868/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6090620a5395d70aca338db6ddbf066d8f3b769e">
-        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7c9893018ff8a9a16f5ef98b35e85ec55f13655a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ed2e602456f91dc8ae37a18175360e7397906d21">
-        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_20ad804b0113127607d664a6e0a1653a1261c714/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -147,30 +174,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_efbb176ab0f3631d400c080f1cb647794f9add14/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
         <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_b40366d91e321fd6c6c234250c1fc6f081b7c9fd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_c30f16d78bde0432496a51ede5344f96330b5273/classes.dex" />
     </item>
 
 </items>
