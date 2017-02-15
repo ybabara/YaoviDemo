@@ -61,6 +61,7 @@
             android:background="@color/white"/>
 
         <ImageButton
+            android:id="@+id/bt2"
             android:onClick="onClick"
             android:layout_width="0dp"
             android:layout_height="match_parent"

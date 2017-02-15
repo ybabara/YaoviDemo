@@ -1,5 +1,6 @@
 package com.example.yaovi.yaovidemo;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -71,5 +72,13 @@ public class ListViewActivity extends AppCompatActivity implements AdapterView.O
         Toast.makeText(this, "listView was clicked at position:"+position,Toast.LENGTH_LONG).show();
 
         Log.d("testListViewActivity",String.valueOf(position));
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent();
+        intent.putExtra("message","ViewPager");
+        setResult(RESULT_OK, intent);
+        super.onBackPressed();
     }
 }

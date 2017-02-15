@@ -2,11 +2,14 @@ package com.example.yaovi.yaovidemo;
 
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.IdRes;
 import android.support.v7.app.AlertDialog;
 import android.widget.EditText;
 import android.widget.RadioGroup;
+
+import com.example.yaovi.yaovidemo.dialog.CustomDialog;
 
 import java.util.ArrayList;
 
@@ -48,10 +51,24 @@ public class DialogActivity extends BaseActivity {
                 inputDialog();
                 break;
             case R.id.rb8:
+                customDialog();
                 break;
             default:
 
         }
+    }
+
+    private void customDialog() {
+        final CustomDialog dialog = new CustomDialog(this, new CustomDialog.ICustomDialogEventListener() {
+            @Override
+            public void onClickListener() {
+                Intent intent = new Intent();
+                intent.putExtra("message","Result");
+                setResult(RESULT_OK, intent);
+                finish();
+            }
+        });
+        dialog.show();
     }
 
     private void inputDialog(){
