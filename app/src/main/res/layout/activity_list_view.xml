@@ -4,7 +4,8 @@
     android:id="@+id/activity_list_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.yaovi.yaovidemo.ListViewActivity">
+    tools:context="com.example.yaovi.yaovidemo.ListViewActivity"
+    android:orientation="horizontal">
     <ListView
         android:id="@+id/list_view"
         android:layout_width="match_parent"

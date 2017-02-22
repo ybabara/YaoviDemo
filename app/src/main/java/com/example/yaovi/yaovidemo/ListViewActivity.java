@@ -1,6 +1,8 @@
 package com.example.yaovi.yaovidemo;
 
 import android.content.Intent;
+import android.support.v4.app.Fragment;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -13,6 +15,15 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.yaovi.yaovidemo.adapter.ListViewAdapter;
+import com.example.yaovi.yaovidemo.adapter.ViewPagerAdapter;
+import com.example.yaovi.yaovidemo.fragment.Image3;
+import com.example.yaovi.yaovidemo.fragment.Image4;
+import com.example.yaovi.yaovidemo.fragment.Image5;
+import com.example.yaovi.yaovidemo.fragment.Image6;
+import com.example.yaovi.yaovidemo.fragment.Image7;
+import com.example.yaovi.yaovidemo.fragment.Image8;
+import com.example.yaovi.yaovidemo.fragment.ImageFragment;
+import com.example.yaovi.yaovidemo.fragment.ImageFragment2;
 
 import java.util.ArrayList;
 
@@ -20,6 +31,8 @@ public class ListViewActivity extends AppCompatActivity implements AdapterView.O
 
     private ListView listView;
     private ArrayList<String> listResult;
+    private ViewPager viewPager;
+    private ArrayList<Fragment> fragmentList = new ArrayList<Fragment>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,11 +65,31 @@ public class ListViewActivity extends AppCompatActivity implements AdapterView.O
 
     private void initialView() {
         listView = (ListView) findViewById(R.id.list_view);
+        ListViewAdapter listViewAdapter = new ListViewAdapter(this,listResult);
 
         View view = getLayoutInflater().inflate(R.layout.list_view_header,null);
         LinearLayout listViewHeader = (LinearLayout) view.findViewById(R.id.list_view_header);
-        ListViewAdapter listViewAdapter = new ListViewAdapter(this,listResult);
+
+        //test
+        viewPager = (ViewPager) view.findViewById(R.id.view_pager);
+        fragmentList.add(new ImageFragment());
+        fragmentList.add(new ImageFragment2());
+        fragmentList.add(new Image3());
+        fragmentList.add(new Image4());
+        fragmentList.add(new Image5());
+        fragmentList.add(new Image6());
+        fragmentList.add(new Image7());
+        fragmentList.add(new Image8());
+
+
+
+       // ListViewAdapter listViewAdapter = new ListViewAdapter(this,listResult);
         listView.addHeaderView(view);
+        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(this.getSupportFragmentManager());
+        viewPagerAdapter.setContent(fragmentList);
+        viewPager.setAdapter(viewPagerAdapter);
+        listView.addHeaderView(listViewHeader);
+
 
         TextView tv = new TextView(this);
         tv.setText("We have no more content.");
