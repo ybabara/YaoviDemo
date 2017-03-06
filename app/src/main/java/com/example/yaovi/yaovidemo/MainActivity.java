@@ -23,6 +23,20 @@ public class MainActivity extends BaseActivity {
     private ImageButton bt2;
     private ImageButton bt4;
 
+    @OnClick(R.id.bt4)
+    public void toActivityA() {
+        toActivity(ActivityA.class);
+    }
+
+    @OnClick(R.id.main_anim_bt)
+    public void toAnimation(){
+        toActivity(AnimationActivity.class);
+    }
+
+    @OnClick(R.id.main_timer_bt)
+    public void toTimer(){
+        toActivity(TimerActivity.class);
+    }
     @OnClick(R.id.bt2)
     public void button2Click(){
         Intent intent = new Intent(this,DialogActivity.class);
@@ -48,7 +62,7 @@ public class MainActivity extends BaseActivity {
 //        bt2 = (ImageButton) findViewById(R.id.bt2);
         bt1 = (ImageButton) findViewById(R.id.bt1);
         bt3 = (ImageButton) findViewById(R.id.bt3);
-        bt4 = (ImageButton) findViewById(R.id.orange);
+        bt4 = (ImageButton) findViewById(R.id.bt4);
     }
 
 
@@ -84,7 +98,7 @@ public class MainActivity extends BaseActivity {
         bt4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), Alphabet.class);
+                Intent intent = new Intent(v.getContext(), ActivityA.class);
                 startActivity(intent);
             }
         });

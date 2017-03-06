@@ -26,4 +26,6 @@ public class BaseActivity extends AppCompatActivity {
         Toast.makeText(this,content,Toast.LENGTH_SHORT).show();
 
     }
+
+   // protected  void OnCreate(Bundle savedInstaneState);
 }
