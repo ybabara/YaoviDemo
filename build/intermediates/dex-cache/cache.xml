@@ -115,7 +115,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6b3a35f6af1971e690c606931fb915ca93ae5212">
+        sha1="786136ee29be3b0f0f83fc15d69fae9d378536d3">
         <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7c9893018ff8a9a16f5ef98b35e85ec55f13655a/classes.dex" />
     </item>
     <item
@@ -124,7 +124,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6072f5a176a2c0fa4e4c379b3b48638041579e00">
+        sha1="5f1bf1d8d8a6d8ee09381751955c02345cb311b5">
         <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_20ad804b0113127607d664a6e0a1653a1261c714/classes.dex" />
     </item>
     <item
