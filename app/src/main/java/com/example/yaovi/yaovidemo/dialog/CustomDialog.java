@@ -25,11 +25,9 @@ public class CustomDialog extends Dialog {
 
     public interface  ICustomDialogEventListener{
         public void onClickListener();
+
     }
 
-    public interface ICustomDialogEventListener2{
-        public void onCLickListener();
-    }
 
     public CustomDialog(Context context, ICustomDialogEventListener listener) {
         super(context, R.style.dialog);

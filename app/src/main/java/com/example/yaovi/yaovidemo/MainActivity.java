@@ -11,7 +11,12 @@ import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import com.example.yaovi.yaovidemo.Quiz4;
+
+import com.example.yaovi.yaovidemo.Quiz4.ICustomDialogEventListener;
+import com.example.yaovi.yaovidemo.adapter.ViewPagerAdapter;
 import com.example.yaovi.yaovidemo.bean.Book;
+import com.example.yaovi.yaovidemo.dialog.CustomDialog;
 import com.example.yaovi.yaovidemo.util.UtilLog;
 
 import java.util.List;
@@ -20,6 +25,8 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
+import static com.example.yaovi.yaovidemo.R.style.dialog;
+
 public class MainActivity extends BaseActivity implements View.OnTouchListener {
 
     private ImageButton bt1;
@@ -27,23 +34,27 @@ public class MainActivity extends BaseActivity implements View.OnTouchListener {
     private ImageButton bt2;
     private ImageButton bt4;
 
+    
+
+
+
+
     @OnClick(R.id.Quiz4)
     public void Quiz4(){
-        final Quiz4 dialog = new Quiz4(this, new Quiz4.ICustomDialogEventListener() {
+        final Quiz4 dialog = new Quiz4(this, new ICustomDialogEventListener() {
             @Override
             public void onClickListener() {
                 Intent intent = new Intent(MainActivity.this, DialogActivity.class);
                 startActivity(intent);
             }
-
             @Override
-            public void onClick2Listener() {
+            public void onClickListener2() {
                 Intent intent = new Intent(MainActivity.this, ListViewActivity.class);
                 startActivity(intent);
             }
 
             @Override
-            public void onClickCancel() {
+            public void onCancel() {
                 Intent intent = new Intent(MainActivity.this,ViewPagerActivity.class);
                 intent.putExtra("key","value");
                 Bundle bundle = new Bundle();
@@ -58,7 +69,6 @@ public class MainActivity extends BaseActivity implements View.OnTouchListener {
         });
         dialog.show();
     }
-
 
     @BindView(R.id.main_fl)
     FrameLayout fl;
