@@ -23,7 +23,10 @@
             android:gravity="center"
             android:textColor="@color/white"/>
 
+
+
         <ImageButton
+            android:id="@+id/profile_pic"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:background="@android:color/transparent"
@@ -124,6 +127,104 @@
             android:textAllCaps="false"
             android:textSize="14sp"/>
 
+        <Button
+            android:id="@+id/cups"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="Cups"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@id/main_timer_bt"
+            android:textAllCaps="false"
+            android:textSize="14sp"/>
+
     </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_list"
+        android:layout_width="190dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_bar"
+        android:background="@android:color/black"
+        android:layout_marginLeft="-325dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/main_act"
+            android:layout_width="150dp"
+            android:background="@color/black"
+            android:layout_height="50dp"
+            android:text="ActivityMain"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/viewpager_act"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:text="ViewPagerActivity"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:background="@color/black"
+            />
+
+        <Button
+            android:id="@+id/listview_act"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:background="@color/black"
+            android:text="ListViewActivity"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            />
+
+        <Button
+            android:id="@+id/a_act"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:text="A Activity"
+            android:background="@color/black"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/b_act"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="B Activity"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/c_act"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:layout_height="50dp"
+            android:text="C Activity"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/d_act"
+            android:layout_width="150dp"
+            android:background="@color/black"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:text="D Activity"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
 
 </RelativeLayout>

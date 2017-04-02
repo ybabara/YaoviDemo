@@ -1,5 +1,6 @@
 package com.example.yaovi.yaovidemo;
 
+import android.animation.ObjectAnimator;
 import android.content.Intent;
 import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
@@ -9,6 +10,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.example.yaovi.yaovidemo.Quiz4;
@@ -25,7 +27,6 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-import static com.example.yaovi.yaovidemo.R.style.dialog;
 
 public class MainActivity extends BaseActivity implements View.OnTouchListener {
 
@@ -33,9 +34,77 @@ public class MainActivity extends BaseActivity implements View.OnTouchListener {
     private ImageButton bt3;
     private ImageButton bt2;
     private ImageButton bt4;
+    int slide = 0;
 
-    
+    @OnClick(R.id.cups)
+    public void toCups(){
+        toActivity(Cups.class);
+    }
 
+    @BindView(R.id.activity_list)
+    LinearLayout linear;
+
+    @OnClick(R.id.profile_pic)
+    public void move(){
+        if(slide == 0){
+            //slide out navigation drawer animation
+            ObjectAnimator animator = ObjectAnimator.ofFloat(linear, "translationX", 0, 950, 950, 950, 950);
+            animator.setDuration(1000);
+            animator.start();
+            slide++;
+        } else{
+            //slide navigaiton drawer in animation
+            ObjectAnimator animator = ObjectAnimator.ofFloat(linear, "translationX", 950, 0, 0, 0, 0);
+            animator.setDuration(1000);
+            animator.start();
+            slide = 0;
+        }
+    }
+
+    @OnClick(R.id.main_act)
+    public void mainActivity(){
+        toActivity(MainActivity.class);
+    }
+
+    @OnClick(R.id.viewpager_act)
+    public void pagerActivity(View v) {
+        Toast.makeText(v.getContext(), "Button1 was clicked", Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(v.getContext(),ViewPagerActivity.class);
+        intent.putExtra("key","value");
+        Bundle bundle = new Bundle();
+        bundle.putInt("Integer",12345);
+        intent.putExtras(bundle);
+        Book book = new Book();
+        book.setName("Android");
+        book.setAuthor("Yaovi");
+        bundle.putSerializable("book",book);
+        intent.putExtras(bundle);
+        startActivityForResult(intent,1);
+    }
+
+    @OnClick(R.id.listview_act)
+    public void listViewActivity(){
+        toActivity(ListViewActivity.class);
+    }
+
+    @OnClick(R.id.a_act)
+    public void aActivity(){
+        toActivity(ActivityA.class);
+    }
+
+    @OnClick(R.id.b_act)
+    public void bActivity(){
+        toActivity(ActivityB.class);
+    }
+
+    @OnClick(R.id.c_act)
+    public void cActivity(){
+        toActivity(ActivityC.class);
+    }
+    @OnClick(R.id.d_act)
+    public void dActivity(){
+        toActivity(ActivityD.class);
+    }
 
 
 
@@ -197,6 +266,14 @@ public class MainActivity extends BaseActivity implements View.OnTouchListener {
         public boolean onDown(MotionEvent e) {
             UtilLog.logD("My Gesture", "onDown");
             toastShort("onDown");
+
+            if(slide == 1){
+                //slide in
+                ObjectAnimator animator = ObjectAnimator.ofFloat(linear, "translationX", 950, 0, 0,0,0);
+                animator.setDuration(1000);
+                animator.start();
+                slide = 0;
+            }
             return false;
         }
 
@@ -219,6 +296,15 @@ public class MainActivity extends BaseActivity implements View.OnTouchListener {
         public boolean onSingleTapConfirmed(MotionEvent e) {
             UtilLog.logD("My Gesture", "onSingleTapConfirmed");
             toastShort("onSingleTapConfirmed");
+
+            if(slide == 1){
+                //slide in
+                ObjectAnimator animator = ObjectAnimator.ofFloat(linear, "translationX", 950, 0, 0,0,0);
+                animator.setDuration(1000);
+                animator.start();
+                slide = 0;
+            }
+
             return true;
         }
 
@@ -231,6 +317,21 @@ public class MainActivity extends BaseActivity implements View.OnTouchListener {
         public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
             //UtilLog.logD("MyGesture", "onFling");
             toastShort("onFling");
+
+            if(slide == 0){
+                //slide out navigation drawer animation
+                ObjectAnimator animator = ObjectAnimator.ofFloat(linear, "translationX", 0, 950, 950, 950, 950);
+                animator.setDuration(1000);
+                animator.start();
+                slide++;
+            } else{
+                //slide navigaiton drawer in animation
+                ObjectAnimator animator = ObjectAnimator.ofFloat(linear, "translationX", 950, 0, 0, 0, 0);
+                animator.setDuration(1000);
+                animator.start();
+                slide = 0;
+            }
+
             return true;
         }
 
