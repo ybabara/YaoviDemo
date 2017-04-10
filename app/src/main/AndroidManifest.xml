@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.yaovi.yaovidemo">
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:name=".YaoviApplication"
         android:allowBackup="true"
@@ -35,6 +40,12 @@
             android:launchMode="singleInstance" />
         <activity android:name=".AnimatorActivity" />
         <activity android:name=".Quiz4" />
+        <activity android:name=".Cups" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".CardList" />
+        <activity android:name=".Checkbox"></activity>
     </application>
 
 </manifest>

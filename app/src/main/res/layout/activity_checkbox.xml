@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <CheckBox
+        android:id="@+id/country_india"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="india" />
+
+    <CheckBox
+        android:id="@+id/country_china"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="china"/>
+
+    <CheckBox
+        android:id="@+id/country_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="us" />
+
+    <Button
+        android:id="@+id/btnResult"
+        android:layout_width="98dp"
+        android:layout_height="25dp"
+        android:text="btn_result"
+        android:layout_weight="0.02" />
+
+</LinearLayout>

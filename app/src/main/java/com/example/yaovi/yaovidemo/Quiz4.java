@@ -21,10 +21,10 @@ public class Quiz4 extends Dialog {
 
     @OnClick(R.id.dialog_ok2)
     public void okClick(){
-        if(checkedID == R.id.button1){
+        if(checkedID == R.id.box1){
             listener.onClickListener();
         }
-        if(checkedID == R.id.button2){
+        if(checkedID == R.id.box2){
             listener.onClickListener2();
         }
         dismiss();

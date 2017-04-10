@@ -131,7 +131,7 @@
             android:id="@+id/cups"
             android:layout_width="100dp"
             android:layout_height="60dp"
-            android:text="Cups"
+            android:text="Project"
             android:layout_marginTop="70dp"
             android:layout_marginLeft="100dp"
             android:layout_below="@id/main_timer_bt"

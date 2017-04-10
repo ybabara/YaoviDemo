@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_cups"
@@ -7,42 +7,88 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@color/white"
     tools:context="com.example.yaovi.yaovidemo.Cups">
 
-    <LinearLayout
+    <FrameLayout
+        android:id="@+id/frame"
         android:layout_width="match_parent"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"></FrameLayout>
 
-        <ImageView
-            android:id="@+id/left"
-            android:layout_width="60dp"
-            android:layout_height="100dp"
-            android:layout_marginRight="60dp"
-            android:src="@drawable/ic_cardback"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/deck_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"></android.support.v4.view.ViewPager>
 
-        <ImageView
-            android:id="@+id/middle"
-            android:layout_width="60dp"
-            android:layout_height="100dp"
-            android:src="@drawable/ic_cardback"/>
+    <Button
+        android:id="@+id/deck_button"
+        android:layout_width="79dp"
+        android:layout_height="wrap_content"
+        android:text="Deck"
+        android:layout_marginBottom="7dp"
+        android:layout_above="@+id/middle"
+        android:layout_alignEnd="@+id/left"
+        android:layout_marginEnd="10dp" />
 
-        <ImageView
-            android:id="@+id/right"
-            android:layout_width="60dp"
-            android:layout_height="100dp"
-            android:layout_marginLeft="60dp"
-            android:src="@drawable/ic_cardback"/>
-    </LinearLayout>
+    <Button
+        android:id="@+id/deck_button2"
+        android:layout_width="79dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/deck_button"
+        android:layout_alignBottom="@+id/deck_button"
+        android:layout_centerHorizontal="true"
+        android:text="Option" />
+
 
     <Button
         android:id="@+id/new_game"
-        android:layout_marginTop="20dp"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="New Game"/>
+        android:text="New Game"
+        android:layout_marginBottom="107dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/middle"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_cardback"
+        android:layout_above="@+id/new_game"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp" />
+
+    <ImageView
+        android:id="@+id/left"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/middle"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="60dp"
+        android:layout_toStartOf="@+id/middle"
+        android:src="@drawable/ic_cardback" />
+
+    <ImageView
+        android:id="@+id/right"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/middle"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="29dp"
+        android:layout_toEndOf="@+id/middle"
+        android:src="@drawable/ic_cardback" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/deck_button2"
+        android:layout_alignBottom="@+id/deck_button2"
+        android:layout_toEndOf="@+id/viewPager"
+        android:text="Ranks" />
 
 
-
-</LinearLayout>
+</RelativeLayout>

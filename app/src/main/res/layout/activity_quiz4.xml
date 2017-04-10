@@ -15,7 +15,7 @@
         android:id="@+id/TV"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:text="Quiz 4"
+        android:text="Options"
         android:layout_gravity="center"
         android:textSize="36sp"/>
 
@@ -25,15 +25,15 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/TV">
 
-        <RadioButton
-            android:id="@+id/button1"
+        <CheckBox
+            android:id="@+id/box1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="left|center_vertical"
-            android:text="Option 1"/>
-        <RadioButton
-            android:id="@+id/button2"
+            android:text="Save Streak"/>
+        <CheckBox
+            android:id="@+id/box2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
