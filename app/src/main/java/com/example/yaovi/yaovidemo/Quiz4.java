@@ -13,11 +13,16 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class Quiz4 extends Dialog {
-
     private int checkedID;
 
     @BindView(R.id.rdg2)
     RadioGroup radioGroup;
+
+
+
+    public Quiz4(@NonNull Context context) {
+        super(context);
+    }
 
     @OnClick(R.id.dialog_ok2)
     public void okClick(){

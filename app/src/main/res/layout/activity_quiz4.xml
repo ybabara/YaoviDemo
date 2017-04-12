@@ -39,6 +39,20 @@
             android:layout_gravity="center"
             android:gravity="left|center_vertical"
             android:text="Option 2"/>
+        <CheckBox
+            android:id="@+id/box3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left|center_vertical"
+            android:text="Option 2"/>
+        <CheckBox
+            android:id="@+id/box4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left|center_vertical"
+            android:text="Option 2"/>
 
     </RadioGroup>
 

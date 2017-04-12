@@ -2,22 +2,148 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/Yaovi/.android/build-cache/7bc074dcf4471013879986aec91ea17be19557c6/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="5ae83f66eb75d50ed43596b8c21dfb50535e95d8">
-        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7c9893018ff8a9a16f5ef98b35e85ec55f13655a/classes.dex" />
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/pre-dexed/debug/classes_320ab8621486bbdc87fc54cbe3f172b9893faa24.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/Yaovi/.android/build-cache/6c0ac2c93da367bce3ffedf1309d8b74ac29aa37/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_20ad804b0113127607d664a6e0a1653a1261c714/classes.dex" />
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_c27b930b04305f990d7a25b18d6637f1b6a2edf1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Yaovi/.android/build-cache/ac5b596342c0ed25e21ae384209f91d87c65f4e8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/pre-dexed/debug/classes_55962f2ceaf494d1ce81bd1b021ad7229b8df196.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Yaovi/.android/build-cache/8b1161b0b38555dcce881054389cda6472e9a3f1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/pre-dexed/debug/classes_fdada5c1deaa375e4ec1081039a6f5dcbdc55622.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Yaovi/.android/build-cache/31e212a9a896323571cadedeb0188a526c00dd12/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/pre-dexed/debug/classes_1ec8f5973ea2442ca63b2b80cadbc6c4a9f5d068.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Yaovi/.android/build-cache/103c3f5afd480d69374c7dc55ed4c8bc85402ff4/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_0d0f7cc6645b922c01f45be00c5575406a7390fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Yaovi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_d6a4ab16aad0d20e3dfe835f951e65c1a3bc726b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Yaovi/.android/build-cache/103c3f5afd480d69374c7dc55ed4c8bc85402ff4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/pre-dexed/debug/classes_e2b0083d6e654642dc67c2f14dda64c91d38a334.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Yaovi/.android/build-cache/4bd7f0dbc88fad8e5f513a783fa8074bcbe5e498/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/pre-dexed/debug/classes_a6e04d469f42aebbdc3e4fc6e0dcd4ccaf20bd30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Yaovi/.android/build-cache/7bc074dcf4471013879986aec91ea17be19557c6/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_eb1e9c11cd03d0d768a15c93561b211a241b6104.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Yaovi/.android/build-cache/6c0ac2c93da367bce3ffedf1309d8b74ac29aa37/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/pre-dexed/debug/classes_c63f8c5fd395f59264792497f327e4519c6fe471.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Yaovi/.android/build-cache/35e53068b4e8b4aa0ad3b25c71d3671495811bb9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/pre-dexed/debug/classes_1e9334d313f20db13f611f58eb351f9b234ce215.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Yaovi/.android/build-cache/52796929eb0aa7ce9e23a8842c465dcbe9b0dbde/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/pre-dexed/debug/classes_4b1135d13aaee8883b6a6fb0727bffe2f3465adb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Yaovi/.android/build-cache/669c3a9f1888137aa450fc23699be21d8589b49b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/pre-dexed/debug/classes_88c7fed150f6e40a63c9130d5137e7be3a4b2c63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Yaovi/.android/build-cache/28056c1a9fc657d09b05f902bb391de4007199e7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/pre-dexed/debug/classes_9b95223ab6029c21dbeaa307be5b4adcf45e0f61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Yaovi/.android/build-cache/31e212a9a896323571cadedeb0188a526c00dd12/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/Yaovi/Downloads/YaoviDemo/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_e982d1061de8234fac1b03416283a11398fc5afa.jar" />
     </item>
 
 </items>
